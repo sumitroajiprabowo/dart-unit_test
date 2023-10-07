@@ -1,6 +1,5 @@
 import 'package:test/expect.dart';
 import 'package:test/scaffolding.dart';
-import 'expect_function_test.dart';
 
 /// Matcher package test di Dart
 /// Digunakan untuk melakukan test terhadap function yang ada di dart
