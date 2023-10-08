@@ -1,4 +1,9 @@
+test_on: mac-os # run tests only on macos
+
 tags:
   browser:
+    skip: false # run tests on browser
   chrome:
+    skip: false # run tests on chrome
   firefox:
+    skip: windows # skip tests on firefox on windows
