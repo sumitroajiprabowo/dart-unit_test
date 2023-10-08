@@ -4,6 +4,6 @@ tags:
   browser:
     skip: false # run tests on browser
   chrome:
-    skip: false # run tests on chrome
+    skip: "chrome is not supported on macos" # skip tests on chrome on macos
   firefox:
     skip: windows # skip tests on firefox on windows
