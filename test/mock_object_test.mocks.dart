@@ -50,15 +50,6 @@ class MockBookRepository extends _i1.Mock implements _i2.BookRepository {
       );
 
   @override
-  void getBook(_i3.Book? book) => super.noSuchMethod(
-        Invocation.method(
-          #getBook,
-          [book],
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
   _i3.Book? getBookByID(_i3.Book? id) => (super.noSuchMethod(
         Invocation.method(
           #getBookByID,

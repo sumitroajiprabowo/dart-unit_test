@@ -30,12 +30,12 @@ class BookService {
     }
   }
 
-  void getBook(int id) {
+  void getBookByID(int id) {
     var book = _bookRepository.getBookByID(Book(id, "", "", 0));
     if(book == null){
       throw Exception("Book not found");
     } else {
-      _bookRepository.getBook(book);
+      _bookRepository.getBookByID(book);
     }
   }
 

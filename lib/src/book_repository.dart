@@ -16,11 +16,6 @@ class BookRepository {
     throw UnsupportedError("Cannot update book");
   }
 
-  void getBook(Book book) {
-    print("Get book $book");
-    throw UnsupportedError("Cannot get book");
-  }
-
   Book? getBookByID(Book id) {
     print("Get book by id $id");
     throw UnsupportedError("Cannot get book by id");
